@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kuba Guess the Rank</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lxo7irj.css">
+</head>
+<style>
+
+	
+</style>
+
+<div id="navbar">
+	<p3>Punkte:⠀⠀<span id="score" class=red>0</span>/<span class=red>100</span></p3>
+	<p3>Richtige:⠀⠀<span id="correctOnes" class=red>0</span>/<span class=red>10</span></p3>
+</div>
+
+<body onload="setNearRCorrectAnswer1(correctAnswer1); setNearLCorrectAnswer1(correctAnswer1); setNearRCorrectAnswer2(correctAnswer2); setNearLCorrectAnswer2(correctAnswer2); setNearRCorrectAnswer3(correctAnswer3); setNearLCorrectAnswer3(correctAnswer3); setNearRCorrectAnswer4(correctAnswer4); setNearLCorrectAnswer4(correctAnswer4); setNearRCorrectAnswer5(correctAnswer5); setNearLCorrectAnswer5(correctAnswer5); setNearRCorrectAnswer6(correctAnswer6); setNearLCorrectAnswer6(correctAnswer6); setNearRCorrectAnswer7(correctAnswer7); setNearLCorrectAnswer7(correctAnswer7); setNearRCorrectAnswer8(correctAnswer8); setNearLCorrectAnswer8(correctAnswer8); setNearRCorrectAnswer9(correctAnswer9); setNearLCorrectAnswer9(correctAnswer9); setNearRCorrectAnswer10(correctAnswer10); setNearLCorrectAnswer10(correctAnswer10)">
+  <!-- Question 1 -->
+  <div class="section">
+	<p>CLIP #1</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/3X93WyiJW3c?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question1 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField1('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField1('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField1('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField1('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField1('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField1('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField1('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField1('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField1('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q1a">		
+		<button type="buttton" onclick="this.disabled = true; checkAnswer1()">Submit</button>
+		<p id="q1r"></p>
+	</p>
+  </question>
+</div>
+
+  <!-- Question 2 -->
+  <div class="section" onload="setNearRCorrectAnswer2(correctAnswer2); setNearLCorrectAnswer2(correctAnswer2)">
+	<p>CLIP #2</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/L0YMibC8oqA?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question2 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField2('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField2('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField2('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField2('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField2('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField2('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField2('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField2('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField2('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q2a">
+		<button type="buttton" onclick="this.disabled = true; checkAnswer2()">Submit</button>
+		<p id="q2r"></p>
+	</p>
+  </question>
+</div>
+  
+  <!-- Question 3 -->
+  <div class="section" onload="setNearRCorrectAnswer3(correctAnswer3); setNearLCorrectAnswer3(correctAnswer3)">
+	<p>CLIP #3</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/U-lg9SHd4Sw?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question3 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField3('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField3('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField3('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField3('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField3('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField3('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField3('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField3('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField3('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q3a">
+		<button type="buttton" onclick="this.disabled = true; checkAnswer3()">Submit</button>
+		<p id="q3r"></p>
+	</p>
+  </question>
+</div>
+  
+  <!-- Question 4 -->
+  <div class="section" onload="setNearRCorrectAnswer4(correctAnswer4); setNearLCorrectAnswer4(correctAnswer4)">
+	<p>CLIP #4</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/kSr5bVC6JlA?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question4 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField4('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField4('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField4('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField4('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField4('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField4('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField4('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField4('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField4('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q4a">
+		<button type="buttton" onclick="this.disabled = true; checkAnswer4()">Submit</button>
+		<p id="q4r"></p>
+	</p>
+  </question>
+</div>
+  
+  <!-- Question 5 -->
+  <div class="section" onload="setNearRCorrectAnswer5(correctAnswer5); setNearLCorrectAnswer5(correctAnswer5)">
+	<p>CLIP #5</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/cADkYoS3Gj4?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question5 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField5('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField5('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField5('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField5('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField5('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField5('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField5('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField5('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField5('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q5a">
+		<button type="buttton" onclick="this.disabled = true; checkAnswer5()">Submit</button>
+		<p id="q5r"></p>
+	</p>
+  </question>
+</div>
+  
+  <!-- Question 6 -->
+  <div class="section" onload="setNearRCorrectAnswer6(correctAnswer6); setNearLCorrectAnswer6(correctAnswer6)">
+	<p>CLIP #6</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/3S_kScqlJbg?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question6 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField6('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField6('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField6('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField6('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField6('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField6('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField6('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField6('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField6('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q6a">
+		<button type="buttton" onclick="this.disabled = true; checkAnswer6()">Submit</button>
+		<p id="q6r"></p>
+	</p>
+  </question>
+</div>
+  
+  <!-- Question 7 -->
+  <div class="section" onload="setNearRCorrectAnswer7(correctAnswer7); setNearLCorrectAnswer7(correctAnswer7)">
+	<p>CLIP #7</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/lTGVLPLqWEc?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question7 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField7('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField7('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField7('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField7('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField7('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField7('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField7('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField7('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField7('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q7a">
+		<button type="buttton" onclick="this.disabled = true; checkAnswer7()">Submit</button>
+		<p id="q7r"></p>
+	</p>
+  </question>
+</div>
+  
+  <!-- Question 8 -->
+  <div class="section" onload="setNearRCorrectAnswer8(correctAnswer8); setNearLCorrectAnswer8(correctAnswer8)">
+	<p>CLIP #8</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/JPj3alGy14U?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question8 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField8('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField8('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField8('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField8('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField8('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField8('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField8('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField8('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField8('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q8a">
+		<button type="buttton" onclick="this.disabled = true; checkAnswer8()">Submit</button>
+		<p id="q8r"></p>
+	</p>
+  </question>
+</div>
+  
+  <!-- Question 9 -->
+  <div class="section" onload="setNearRCorrectAnswer9(correctAnswer9); setNearLCorrectAnswer9(correctAnswer9)">
+	<p>CLIP #9</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/7hXlBYYRdEQ?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question9 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField9('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField9('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField9('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField9('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField9('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField9('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField9('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField9('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField9('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q9a">
+		<button type="buttton" onclick="this.disabled = true; checkAnswer9()">Submit</button>
+		<p id="q9r"></p>
+	</p>
+  </question>
+</div>
+  
+   <!-- Question 10 -->
+  <div class="section" onload="setNearRCorrectAnswer10(correctAnswer10); setNearLCorrectAnswer10(correctAnswer10)">
+	<p>CLIP #10</p>
+	<iframe width="1024" height="576" src="https://www.youtube.com/embed/knRfd402Nqc?fs=1&loop=1&iv_load_policy=3" onPlaybackQualityChange=hd1080 frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe><br>
+  <question id=question10 class=show>
+	<ranks>
+		<choice>
+			<img class="flag-icon" src="icons/Iron.png" onclick="fillTextField10('Iron')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Bronze.png" onclick="fillTextField10('Bronze')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Silver.png" onclick="fillTextField10('Silver')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Gold.png" onclick="fillTextField10('Gold')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Platinum.png" onclick="fillTextField10('Platinum')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Diamond.png" onclick="fillTextField10('Diamond')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Ascendant.png" onclick="fillTextField10('Ascendant')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Immortal.png" onclick="fillTextField10('Immortal')">
+		</choice>
+		<choice>
+			<img class="flag-icon" src="icons/Radiant.png" onclick="fillTextField10('Radiant')">
+		</choice>
+	</ranks>
+	<br>
+	<p>
+		<input type="text" class="input" id="q10a">
+		<button type="buttton" onclick="this.disabled = true; checkAnswer10()">Submit</button>
+		<p id="q10r"></p>
+	</p>
+  </question>
+  <img class=meme src="https://cdn.7tv.app/emote/63ab71b086bbfe2fee8ffb3b/4x.webp">
+</div>
+  
+  <hr>
+    <p2>© DEAFPS 2023</p2>
+  <p>⠀</p>
+<script src="script.js"></script>
+</body>
+</html>
+
