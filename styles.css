@@ -200,8 +200,7 @@ button:hover::before {
 
 .meme {
   position: absolute;
-  top: 10640px;
-  left: 300px;
+  margin-left: 25px;
 }
 .red {
   color: rgb(252, 70, 100);
