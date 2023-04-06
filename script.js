@@ -128,7 +128,7 @@
 		//4
 		var nearRCorrectAnswer4 = 'Null';
 		var nearLCorrectAnswer4 = 'Null';
-		const correctAnswer4 = 'Platinum';
+		const correctAnswer4 = 'Ascendant';
 		
 		//5
 		var nearRCorrectAnswer5 = 'Null';
