@@ -113,27 +113,27 @@
 		//1
 		var nearRCorrectAnswer1 = 'Null';
 		var nearLCorrectAnswer1 = 'Null';
-		const correctAnswer1 = 'Immortal';
+		const correctAnswer1 = 'Platinum';
 		
 		//2
 		var nearRCorrectAnswer2 = 'Null';
 		var nearLCorrectAnswer2 = 'Null';
-		const correctAnswer2 = 'Ascendant';
+		const correctAnswer2 = 'Platinum';
 		
 		//3
 		var nearRCorrectAnswer3 = 'Null';
 		var nearLCorrectAnswer3 = 'Null';
-		const correctAnswer3 = 'Platinum';
+		const correctAnswer3 = 'Immortal';
 		
 		//4
 		var nearRCorrectAnswer4 = 'Null';
 		var nearLCorrectAnswer4 = 'Null';
-		const correctAnswer4 = 'Gold';
+		const correctAnswer4 = 'Platinum';
 		
 		//5
 		var nearRCorrectAnswer5 = 'Null';
 		var nearLCorrectAnswer5 = 'Null';
-		const correctAnswer5 = 'Diamond';
+		const correctAnswer5 = 'Ascendant';
 		
 		//6
 		var nearRCorrectAnswer6 = 'Null';
@@ -143,7 +143,7 @@
 		//7
 		var nearRCorrectAnswer7 = 'Null';
 		var nearLCorrectAnswer7 = 'Null';
-		const correctAnswer7 = 'Diamond';
+		const correctAnswer7 = 'Platinum';
 		
 		//8
 		var nearRCorrectAnswer8 = 'Null';
@@ -153,7 +153,7 @@
 		//9
 		var nearRCorrectAnswer9 = 'Null';
 		var nearLCorrectAnswer9 = 'Null';
-		const correctAnswer9 = 'Silver';
+		const correctAnswer9 = 'Diamond';
 		
 		//10
 		var nearRCorrectAnswer10 = 'Null';
