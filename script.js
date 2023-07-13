@@ -113,52 +113,52 @@
 		//1
 		var nearRCorrectAnswer1 = 'Null';
 		var nearLCorrectAnswer1 = 'Null';
-		const correctAnswer1 = 'Platinum';
+		const correctAnswer1 = 'Diamond';
 		
 		//2
 		var nearRCorrectAnswer2 = 'Null';
 		var nearLCorrectAnswer2 = 'Null';
-		const correctAnswer2 = 'Platinum';
+		const correctAnswer2 = 'Diamond';
 		
 		//3
 		var nearRCorrectAnswer3 = 'Null';
 		var nearLCorrectAnswer3 = 'Null';
-		const correctAnswer3 = 'Immortal';
+		const correctAnswer3 = 'Platinum';
 		
 		//4
 		var nearRCorrectAnswer4 = 'Null';
 		var nearLCorrectAnswer4 = 'Null';
-		const correctAnswer4 = 'Ascendant';
+		const correctAnswer4 = 'Gold';
 		
 		//5
 		var nearRCorrectAnswer5 = 'Null';
 		var nearLCorrectAnswer5 = 'Null';
-		const correctAnswer5 = 'Ascendant';
+		const correctAnswer5 = 'Immortal';
 		
 		//6
 		var nearRCorrectAnswer6 = 'Null';
 		var nearLCorrectAnswer6 = 'Null';
-		const correctAnswer6 = 'Ascendant';
+		const correctAnswer6 = 'Diamond';
 		
 		//7
 		var nearRCorrectAnswer7 = 'Null';
 		var nearLCorrectAnswer7 = 'Null';
-		const correctAnswer7 = 'Platinum';
+		const correctAnswer7 = 'Diamond';
 		
 		//8
 		var nearRCorrectAnswer8 = 'Null';
 		var nearLCorrectAnswer8 = 'Null';
-		const correctAnswer8 = 'Immortal';
+		const correctAnswer8 = 'Ascendant';
 		
 		//9
 		var nearRCorrectAnswer9 = 'Null';
 		var nearLCorrectAnswer9 = 'Null';
-		const correctAnswer9 = 'Diamond';
+		const correctAnswer9 = 'Ascendant';
 		
 		//10
 		var nearRCorrectAnswer10 = 'Null';
 		var nearLCorrectAnswer10 = 'Null';
-		const correctAnswer10 = 'Diamond';
+		const correctAnswer10 = 'Platinum';
 
 
 // Near Correct automation
